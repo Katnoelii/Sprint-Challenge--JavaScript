@@ -26,13 +26,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+For each returns an undefined value, whereas map return a new array with transformed elements. 
+
 2. Explain the difference between a callback and a higher order function.
+
+A higher order function can recieve other functions as parameters.
+Callback functions are function that are passed into other functions as arguments.
 
 3. What is closure?
 
+When an inner function has access to it's parent functions values.
+
 4. Describe the four rules of the 'this' keyword.
 
+1.
+2.
+3.
+4.
+
+
 5. Why do we need super() in an extended class?
+
+super() is what is used in order to call the parent's attributes so the child inherits. 
 
 ### Task 1 - Project Set up
 
