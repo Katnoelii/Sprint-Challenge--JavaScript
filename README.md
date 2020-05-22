@@ -39,10 +39,10 @@ When an inner function has access to it's parent functions values.
 
 4. Describe the four rules of the 'this' keyword.
 
-1.
-2.
-3.
-4.
+1. Window/Global Object Binding: When in the global scope, 'this' will be the console Object
+2. Implicit Binding: whenever a dot calls a function, the object before the dot is this
+3. New Binding: during constructor functions, this refers to the specific object that is created and returned by the constructor function.
+4. Explicit Binding: During call or apply method, this is explicitly defined.
 
 
 5. Why do we need super() in an extended class?
