@@ -41,5 +41,5 @@ const cube = new CubeMaker({
     height:5
 });
 
-console.log(cube.cubeVol());
-console.log(cube.cubeSA());
+console.log(cube.cubeVol());//should return 125
+console.log(cube.cubeSA());//should return 150
